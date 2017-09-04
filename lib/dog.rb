@@ -4,10 +4,6 @@ class Dog
   end
 
 
-    def breed=(breed)
-      @breed = breed
-    end
-
   def breed
     @breed
   end
@@ -24,4 +20,6 @@ end
 newton = Dog.new("black labrador")
 newton.name = "Newton"
 puts newton.name
+puts newton.breed
+newton.breed = "beagle"
 puts newton.breed
